@@ -1,0 +1,55 @@
+@import "~styles/variables";
+
+.dialog__input {
+    // border-top: 1px solid rgba(206, 210, 216, 0.301);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    height: 70px;
+
+    span {
+        font-size: 24px;
+        color: rgb(119, 119, 119);
+        padding: 0 5px;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+            color: $iconColor;
+        }
+    }
+
+    .dialog__input-message {
+        border-radius: 5px;
+        padding-right: 10px;
+        outline: none;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        // border: 1px solid rgba(0, 20, 46, 0.048);
+        &:focus {
+            box-shadow: 0px 2px 15px rgba(10, 10, 10, 0.198);
+        }
+    }
+
+    .dialog__input-content {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background: rgba(236, 236, 236, 0.376);
+        span {
+            position: absolute;
+            top: 6px;
+            right: 10px;
+            font-size: 20px;
+
+            &:nth-child(2) {
+                right: 0px;
+            }
+            &:nth-child(3) {
+                right: 40px;
+            }
+        }
+    }
+}

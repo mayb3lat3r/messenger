@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/Button/Button.scss"],"names":[],"mappings":"AACI,eACI,qBAAuB,CAC1B,eAGG,qBAAuB","file":"main.434b093c.chunk.css","sourcesContent":[".button {\n    &__large {\n        height: 56px !important;\n    }\n\n    &__small {\n        height: 25px !important;\n    }\n}"]}

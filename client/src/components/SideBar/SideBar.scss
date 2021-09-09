@@ -1,0 +1,101 @@
+@import "~styles/variables";
+
+.sidebar {
+    min-width: 340px;
+    padding-left: 5px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    height: 100vh;
+    background: #fff;
+    border-right: 1px solid rgba(206, 210, 216, 0.301);
+
+    &__menu {
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__dialogs {
+        height: 89%;
+        overflow-y: auto;
+    }
+
+    &__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 20px;
+    }
+
+    &__create-dialog {
+        display: flex;
+        align-items: center;
+
+        span {
+            cursor: pointer;
+            color: rgb(85, 85, 85);
+            transition: 0.5s ease;
+            :hover {
+                color: $myMsg;
+            }
+        }
+    }
+
+    &__menu {
+        span {
+            color: rgb(85, 85, 85);
+            transition: 0.5s ease;
+            cursor: pointer;
+            :hover {
+                color: $myMsg;
+            }
+        }
+    }
+
+    &__search {
+        position: relative;
+        text-align: center;
+        input {
+            border: none;
+            background: rgba(236, 236, 236, 0.376);
+            width: 90%;
+            padding: 5px 5px 5px 25px;
+            border-radius: 10px;
+            outline: none;
+        }
+        span {
+            opacity: 0.6;
+            position: absolute;
+            top: 5px;
+            left: 12px;
+        }
+        padding-bottom: 10px;
+        // border-bottom: 1px solid rgba(206, 210, 216, 0.301);
+    }
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    // margin-top: 108px;
+    // background-color: #ebebeb;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #a3a3a3;
+    visibility: hidden;
+}
+
+:hover::-webkit-scrollbar-thumb {
+    transition: 1s ease-in-out;
+    visibility: visible;
+}
