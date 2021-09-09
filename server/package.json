@@ -1,0 +1,17 @@
+{
+  "name": "messenger-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3004"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.3"
+  },
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "hash-generator": "^0.1.0"
+  }
+}

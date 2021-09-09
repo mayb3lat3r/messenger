@@ -1,0 +1,26 @@
+USER:
+    _id
+    fullname
+    avatar
+    isOnline
+
+USERS:
+    USER {_id, fullname, avatar, isOnline}
+    USER {_id, fullname, avatar, isOnline}
+    USER {_id, fullname, avatar, isOnline}
+    ...
+    USER {_id, fullname, avatar, isOnline}
+
+DIALOGS:
+    _id
+    author_id
+    companion_id
+    created_at, updated_at
+
+MESSAGE:
+    _id
+    author_id
+    text
+    attachments
+    audio
+

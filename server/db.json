@@ -1,0 +1,86 @@
+{
+    "users": [
+        {
+            "_id": "i0o55h3jw4y0xpoow7j50hbxnese3pbr",
+            "fullname": "Максим Звенигородский",
+            "avatar": "https://avatars1.githubusercontent.com/u/5378891?v=4",
+            "isOnline": true
+        },
+        {
+            "_id": "20psxmqf1smeszjf3k8mfi4o77lhsz4y",
+            "fullname": "Алексей Сопин",
+            "avatar": null,
+            "isOnline": false
+        },
+        {
+            "_id": "r4wgzihbu56qu2c30phh9noma0haas51",
+            "fullname": "Gabe Newell",
+            "avatar": null,
+            "isOnline": true
+        },
+        {
+            "_id": "n65zcwvhuuwp7v2zs49jzytbaqibs3zl",
+            "fullname": "Анастасия Чонк",
+            "avatar": "https://image.flaticon.com/icons/png/512/194/194938.png",
+            "isOnline": false
+        }
+    ],
+    "dialogs": [
+        {
+            "_id": "no3ky4hlllx9rhv9q1ses8dnfbrmivga",
+            "user": {
+                "_id": "i0o55h3jw4y0xpoow7j50hbxnese3pbr",
+                "fullname": "Максим Звенигородский",
+                "avatar": "https://avatars1.githubusercontent.com/u/5378891?v=4",
+                "isOnline": true
+            },
+            "companion": "r4wgzihbu56qu2c30phh9noma0haas51",
+            "message": {
+                "text": "Я тебе, конечно, верю, разве могут быть сомнения? Я и сам все это видел - это наш с тобой секрет!",
+                "date": "Tue Aug 03 2021 12:56:24 GMT+0300",
+                "checked": true
+            }
+        },
+        {
+            "_id": "zk5ds69qtr6qpqydc47z5ei0ketfr5x5",
+            "user": {
+                "_id": "20psxmqf1smeszjf3k8mfi4o77lhsz4y",
+                "fullname": "Алексей Сопин",
+                "avatar": null,
+                "isOnline": false
+            },
+            "companion": "n65zcwvhuuwp7v2zs49jzytbaqibs3zl",
+            "message": {
+                "text": "Я тебя понял",
+                "date": "Tue Aug 02 2021 11:40:24 GMT+0300",
+                "checked": null
+            }
+        }
+    ],
+    "messages": [
+        {
+            "_id": "8u2exr4hnpyuit73nw0yxshr6nz19qek",
+            "dialog": "no3ky4hlllx9rhv9q1ses8dnfbrmivga",
+            "text": "Hello, World",
+            "attachments": null,
+            "audio": null,
+            "date": "Tue Aug 02 2021 11:40:24 GMT+0300",
+            "user": {
+                "_id": "i0o55h3jw4y0xpoow7j50hbxnese3pbr",
+                "avatar": "https://avatars1.githubusercontent.com/u/5378891?v=4"
+            }
+        },
+        {
+            "_id": "k9xnsb7ic55c457kmjluk294w8i4joc8",
+            "dialog": "no3ky4hlllx9rhv9q1ses8dnfbrmivga",
+            "text": "Йоу, я гейб, а ты макс, и это - круто",
+            "attachments": null,
+            "audio": null,
+            "date": "Tue Aug 02 2021 11:41:24 GMT+0300",
+            "user": {
+                "_id": "r4wgzihbu56qu2c30phh9noma0haas51",
+                "avatar": null
+            }
+        }
+    ]
+}
