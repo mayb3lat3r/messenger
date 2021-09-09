@@ -14,21 +14,17 @@ This project is a small messenger application. But with interesting functionalit
 ## Technologies used
 **UI-frameworks**
 - ant.design
-- material-ui
-
 
 **Frontend**
+- React
 - Redux
+- Redux-thunk
 - Socket.io
 - Axios
 - Lodash
-- Redux-thunk
-- Formik
 - React Router
 - classNames
 
 **Backend**
-- NodeJS
+- Express
 - MongoDB
-- Multer
-- PassportJS
